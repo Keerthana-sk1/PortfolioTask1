@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1 Details</title>
+    <link rel="stylesheet" href="style1.css">
+    <style>
+        
+        h1 {
+    color: #04fffb;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+h1:hover {
+    text-shadow: 0 0 10px #04fffb;
+}
+
+.content {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 50px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%; 
+    margin-top: 50px;
+}
+
+
+.images img {
+    max-width: 100%;
+    height: 200px;
+    max-height: 400px;
+    transition: transform 0.3s;
+    margin: 0 auto;
+}
+
+.images img:hover {
+    transform: scale(1.1);
+}
+
+.developers {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+    </style>
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">Webscrapers<span>Portfolio</span></a>
+    </header>
+    <section class="project-details">
+        <h1>Project 1</h1>
+        <div class="content">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut felis sit amet purus efficitur ultrices.
+                Curabitur fringilla neque at magna ullamcorper malesuada. Nullam eu ex eget lorem efficitur vestibulum.
+            </p>
+        </div>
+        <div class="images">
+            <img src="https://img.freepik.com/free-vector/website-development-banner_33099-1687.jpg" alt="Image 1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM5DrpkSalZCczIrFHptdOgns9mNfLf3oxs66ie47h9KVP311r3k93CmxXLrt-KtQ3QsI&usqp=CAU" alt="Image 2">
+        </div>
+        <div class="developers">
+            <p>Developers: John Doe, Jane Smith</p>
+        </div>
+    </section>
+</body>
+</html>
